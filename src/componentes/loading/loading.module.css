@@ -6,9 +6,9 @@
 }
 
 .containerLoading img{
-    margin-left: 580px;
+    margin-left: 540px;
     margin-top: 200px;
-    width: 250px;
+    width: 180px;
 }
 
 @media (max-width: 1543px){

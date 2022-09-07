@@ -34,13 +34,16 @@
   position: relative;
   width: 800px;
   height: 620px;
-  margin: 20px;
+  margin: 10px;
+  margin-top: 20px;
   display: flex;
   transition: 0.5s;
   justify-content: flex-start;
   align-items: center;
   background: linear-gradient(45deg, rgb(15, 15, 15),#7094ce25 );
   border-radius: 20px;
+  padding: 20px;
+
 }
 .containerDetail .card img {
   position: absolute;
@@ -49,6 +52,7 @@
   transform: translateX(-50%);
   height: 500px;
   transition: 0.5s;
+
 
   /* margin-top: 60px;
   width: 40rem;
