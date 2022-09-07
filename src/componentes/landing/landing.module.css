@@ -1,0 +1,40 @@
+.containerVideo{
+    width: 100%;
+    height: 100vh;
+    object-fit:contain;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.443);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .containerVideo video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.containerTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.037);
+    border-radius: 20px;
+}
+
+
+.containerTitulo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}

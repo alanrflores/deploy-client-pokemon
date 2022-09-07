@@ -1,0 +1,256 @@
+.body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fcfcfc;
+  background-image: url("http://www.animalhi.com/thumbnails/detail/20130212/pokemon%20ghastly%201280x960%20wallpaper_www.animalhi.com_90.jpg");
+  object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.divLoading{
+  margin-right: 600px;
+}
+
+.containerDetail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* background-color:rgba(240, 255, 255, 0.695); */
+  /* object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  border-radius: 25px;
+
+}
+
+.containerDetail .card {
+  position: relative;
+  width: 800px;
+  height: 620px;
+  margin: 20px;
+  display: flex;
+  transition: 0.5s;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(15, 15, 15),#7094ce25 );
+  border-radius: 20px;
+}
+.containerDetail .card img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 600px;
+  transition: 0.5s;
+
+  /* margin-top: 60px;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 6px 6px 10px 1px #00000041;
+  box-shadow: 6px 6px 10px 1px #3025006c;
+  padding: 10px;
+  margin: 6px; */
+}
+
+.containerDetail .card:hover img {
+ left: 73%;
+ height: 600px;
+}
+
+.containerDetail .card .content {
+  position: relative;
+  width: 50%;
+  left: 20%;
+  padding: 20px 20px 20px 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.containerDetail .card:hover .content{
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+} 
+
+.containerDetail .card .content div {
+  color: rgb(7, 7, 7);
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 10px ;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.containerDetail .card .content h3 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+
+}
+
+.containerDetail .card .content p{
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.containerDetail .card .content p span{
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+.containerDetail .card .content div span {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.description  li{
+ text-decoration: none;
+  
+}
+
+@media (min-width: 980px) and (max-width: 1024px){
+
+.containerDetail .card {
+  position: relative;
+  width: 700px;
+  height: 520px;
+  margin: 30px;
+  display: flex;
+  transition: 0.5s;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(15, 15, 15),#7094ce25 );
+  border-radius: 20px;
+}
+  .containerDetail .card .content div {
+    color: rgb(7, 7, 7);
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 7px ;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  .containerDetail .card img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 450px;
+    transition: 0.5s;
+  }
+  
+  .containerDetail .card:hover img {
+   left: 73%;
+   height: 580px;
+  }
+  
+  .containerDetail .card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  
+  .containerDetail .card:hover .content{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+}
+
+@media (max-width: 991px)
+{
+  .containerDetail .card{
+    width: 400px;
+    max-width: 900px;
+    align-items: flex-start;
+  }
+
+  .containerDetail .card:hover{
+    height: 880px;
+  }
+
+  .containerDetail .card img{
+    height: 400px;
+    
+  }
+
+  .containerDetail .card:hover img{
+    left: 50%;
+    height: 300px;
+   
+  }
+
+  .containerDetail .card .content{
+    width: 100%;
+    left: 0;
+    padding: 45px;
+  }
+}
+
+
+@media (min-width:320px) and (max-width:660px){
+  .containerDetail .card{
+    width: 340px;
+    max-width: 800px;
+    align-items: flex-start;
+    height: 400px;
+  }
+
+  .containerDetail .card:hover{
+    height: 640px;
+  }
+
+  .containerDetail .card img{
+    height: 200px;
+    
+  }
+
+  .containerDetail .card:hover img{
+    left: 50%;
+    height: 200px;
+   
+  }
+
+  .containerDetail .card .content{
+    width: 100%;
+    left: 0;
+    padding: 6px;
+  }
+  
+  .containerDetail .card .content p{
+    color: #fff;
+    font-size: 1.1em;
+  }
+  
+  .containerDetail .card .content p span{
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+  
+  }
+  .containerDetail .card .content div span {
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+}

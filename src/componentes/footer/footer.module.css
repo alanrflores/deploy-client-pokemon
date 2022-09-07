@@ -1,0 +1,21 @@
+.footer{
+ display: flex;
+ justify-content: space-evenly;
+ border-radius: 10px;
+ margin: 4px;
+ padding: 2px;
+ /* background-color: #FBAB7E;
+ background-image: linear-gradient(0deg, #FBAB7E 0%, #ffcd4b 100%); */
+ background-color: #ffaf02e1;
+ background-image: linear-gradient(0deg, #ffffffed 0%, #f0fffff8 100%);
+
+}
+
+.footer img{
+    padding: 2px;
+    width: 140px;
+    height: 60px;
+    margin-right: 15px;
+
+  }
+ 

@@ -1,0 +1,20 @@
+.selects{
+    margin-left: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fcfcfc87;
+    border: none;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+  }
+
+  @media (min-width: 360px) and (max-width: 920px){
+    .selects{
+      padding: 12px;
+      margin: 6px;
+      font-size: x-large;
+      
+    }
+  }
+

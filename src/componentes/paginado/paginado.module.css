@@ -1,0 +1,39 @@
+.paginado{
+  display: flex;
+  justify-content: center;
+}
+
+.number{
+    background-color: rgba(200, 241, 255, 0.812);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.number button{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(184, 135, 11, 0);
+    border: none;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 866px){
+  .paginado{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+
+  }
+
+}
+
+@media (max-width: 596px){
+  .paginado{
+    margin-right: 20px;
+  }
+}
+

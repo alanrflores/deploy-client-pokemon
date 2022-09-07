@@ -1,0 +1,374 @@
+.home {
+  background-color: #fcfcfc;
+  background-image: url('http://cdn.animalhi.com/1650x1050/20121027/pokemon%20haunter%20black%20background%201650x1050%20wallpaper_www.animalhi.com_1.jpg');
+  object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 80vh;
+}
+
+.banner img {
+  object-fit: cover;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa15fa3d-4bee-4f27-a134-180e5d4190c1/df0o8a8-81350a05-5240-4553-b250-f972898acb5e.png/v1/fill/w_1280,h_720,q_80,strp/pokemon_gengar_wallpaper_by_ragna_ikari_df0o8a8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYWExNWZhM2QtNGJlZS00ZjI3LWExMzQtMTgwZTVkNDE5MGMxXC9kZjBvOGE4LTgxMzUwYTA1LTUyNDAtNDU1My1iMjUwLWY5NzI4OThhY2I1ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4KXBAriAewCfYkZcRzCyLORoukncUHQXEJlL6_uJrYk");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  border-radius: 30px;
+}
+.selects{
+  margin-left: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #fcfcfc5a;
+  border: none;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+
+.divInput {
+  padding: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.divInput input {
+  background-color: #ffffff8b;
+  padding: 12px;
+  width: 300px;
+  border-radius: 8px;
+  margin: 6px;
+}
+
+.divInput button {
+  border-radius: 5px;
+  background-color: rgba(3, 114, 129, 0.744);
+  color: aliceblue;
+  width: 100px;
+  height: 40px;
+  padding: 9px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border: none;
+}
+.divInput button:hover {
+  background-color: rgba(0, 79, 79, 0.904);
+} 
+
+.divButton{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.divPaginado{
+  border-radius: 4px;
+  background-color: rgba(0, 72, 120, 0.623);
+  color: aliceblue;
+  padding: 15px;
+  margin: 15px;
+  width: 80px;
+  height: 50px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border: none;
+}
+
+.divButton button{
+  background-color:rgba(1, 43, 71, 0.77) ;
+}
+
+.loading{
+  height: 100vh;
+}
+.divFiltered {
+  display: flex;
+  justify-content: space-around;
+}
+.divFiltered button{
+  border-radius: 5px;
+  background-color: rgba(3, 114, 129, 0.831);
+  color: aliceblue;
+  width: 100px;
+  height: 40px;
+  padding: 9px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border: none;
+}
+
+.divFiltered button:hover {
+  background-color: rgba(0, 79, 79, 0.904);
+} 
+.sectionCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  margin-left: 250px;
+ 
+}
+
+@media (max-width: 1545px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 150px;
+    
+  }
+
+}
+@media (max-width: 1355px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 100px;
+    
+  }
+
+}
+@media (max-width: 1225px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 80px;
+    
+  }
+
+}
+
+@media (max-width: 1145px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 180px;
+    
+  }
+
+}
+
+@media (min-width: 800px) and (max-width: 964px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 90px;
+  }
+
+  .divFiltered{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+ .divFiltered button{
+   margin-top: 10px;
+   margin-left: 10px;
+   width: 170px;
+   font-size: x-large;
+   font-weight: bold;
+   border-radius: 10px;
+ }
+ .divInput button {
+  font-size: large;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 10px;
+ }
+}
+
+@media (max-width: 800px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 220px;
+    
+  }
+  .divFiltered{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+ .divFiltered button{
+   margin-top: 10px;
+   margin-left: 10px;
+   width: 170px;
+   font-size: x-large;
+   font-weight: bold;
+   border-radius: 10px;
+ }
+ .divInput button {
+  font-size: large;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 10px;
+ }
+
+}
+@media (max-width: 735px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 200px;
+    
+  }
+
+}
+@media (max-width: 696px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 170px;
+    
+  }
+
+}
+@media (max-width: 660px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  
+    
+  }
+
+}
+@media (max-width: 655px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 135px;
+    
+  }
+ 
+  .divFiltered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+    margin: 2px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+  .divFiltered button{
+    width: 150px;
+    margin-left: 7px;
+    margin-top: 5px;
+
+  }
+}
+@media (min-width:540px) and (max-width: 596px){
+  .divFiltered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 8px;
+    margin: 4px;
+    flex-wrap: wrap;
+  }
+  .divFiltered button{
+    width: 120px;
+    margin-left: 7px;
+    margin-top: 15px;
+  }
+  .divInput button {
+    margin-left: 100px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 8px
+
+  }
+}
+
+@media (min-width: 380px) and (max-width: 492px){
+  .divFiltered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+    margin: 2px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+  .divFiltered button{
+    width: 150px;
+    margin-left: 127px;
+    margin-top: 15px;
+  }
+  .divInput {
+    padding: 10px;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+.sectionCard{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 20px;
+  padding: 30px;
+}
+}
+
+@media (min-width: 360px) and (max-width: 379px){
+  .divFiltered button{
+    width: 120px;
+    margin-left: 115px;
+    margin-top: 15px;
+  }
+  .divInput {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .sectionCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 15px;
+    padding: 30px;
+  }
+}
+
+
+
+
+
+
+
+
