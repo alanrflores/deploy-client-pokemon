@@ -47,7 +47,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: 600px;
+  height: 500px;
   transition: 0.5s;
 
   /* margin-top: 60px;
@@ -62,7 +62,7 @@
 
 .containerDetail .card:hover img {
  left: 73%;
- height: 600px;
+ height: 500px;
 }
 
 .containerDetail .card .content {

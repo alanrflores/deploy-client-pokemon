@@ -16,8 +16,8 @@
 .divForm{
    background-color: rgba(240, 248, 255, 0.522);
    width: 820px;
-   height: 740px;
-   padding: 40px;
+   height: 820px;
+   padding: 20px;
    border-radius: 20px;
 
 }
@@ -26,15 +26,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 4px;
-    margin-top: 30px;
+    padding: 2px;
+    margin-top: 20px;
 }
 form label {
-    padding: 4px;
+    padding: 2px;
 }
 .inputName {
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -43,8 +43,8 @@ form label {
     background-color: rgba(255, 255, 255, 0.878);
 }
 .inputAttack{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -53,8 +53,8 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputDefense{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -63,8 +63,8 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputLife{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -73,8 +73,8 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputSpeed{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -83,7 +83,7 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputDefense{
-    margin-top: 4px;
+    margin-top: 2px;
     padding: 4px;
     border-radius: 10px;
     border: solid 1px;
@@ -93,8 +93,8 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputHeight{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -103,8 +103,8 @@ form label {
     background-color: rgba(248, 248, 248, 0.899);
 }
 .inputWeight{
-    margin-top: 4px;
-    padding: 6px;
+    margin-top: 2px;
+    padding: 4px;
     border-radius: 10px;
     border: solid 1px;
     border-top: 4px;
@@ -122,7 +122,7 @@ form label {
   border: none;
   border-radius: 10px;
   padding: 15px;
-  margin-top: 6px;
+  margin-top: 2px;
   margin-right: 20px;
   width: 160px;
 }
@@ -134,7 +134,7 @@ form label {
     display: flex;
     flex-direction: column;
     margin-left: 170px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 .list{
