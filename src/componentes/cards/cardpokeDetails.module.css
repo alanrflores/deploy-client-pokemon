@@ -130,7 +130,7 @@
 .containerDetail .card {
   position: relative;
   width: 700px;
-  height: 520px;
+  height: 500px;
   margin: 30px;
   display: flex;
   transition: 0.5s;
