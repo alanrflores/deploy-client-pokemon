@@ -15,9 +15,10 @@
 
 .divForm{
    background-color: rgba(240, 248, 255, 0.522);
-   width: 820px;
-   height: 820px;
-   padding: 20px;
+   width: 920px;
+   height: 840px;
+   padding: 10px;
+   margin-bottom: 10px;
    border-radius: 20px;
 
 }

@@ -135,11 +135,7 @@ setSelect({types: "" });
 
 //console.log(pokemon)
   return (
-    <div className={styles.container}>
-     
-       <h1>Create a new pokemon</h1> 
-     
-       
+    <div className={styles.container}>       
       <div className={styles.divForm}>
         <form onSubmit={(e)=> handleSubmit(e)}>
           <label>Name: </label>
